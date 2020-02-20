@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+<xsd:element name="Movies">
+	<xsd:complexType>
+		<xsd:sequence>
+		<xsd:element name="Show"/>
+		<xsd:element name="Location"/>
+		<xsd:element name="Movie" maxOccurs="unbounded">
+			<xsd:complexType>
+				<xsd:sequence>
+					<xsd:element name="Theater"/>
+					<xsd:element name="Address"/>
+					<xsd:element name="Text"/>
+					<xsd:element name="Title" maxOccurs="unbounded">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="Name" type="xsd:string"/>
+								<xsd:element name="Time" type="xsd:string"/>
+							</xsd:sequence>
+							<xsd:attribute name="tid" use="required"/>
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:sequence>
+				<xsd:attribute name="mid" use="required"/>
+			</xsd:complexType>
+		</xsd:element>
+		</xsd:sequence>
+	</xsd:complexType>
+</xsd:element>
+</xsd:schema>
+
+

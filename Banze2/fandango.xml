@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="fandango.css"?>
+
+<Movies>
+		<Show>FANDANGO</Show>
+		<Location>rochester, ny Showtimes Date of Show: 9/26/2018</Location>
+		<Movie mid ="1">		
+				<Theater>Regal Culver Ridge Plaza 16</Theater>
+				<Address>2255 Ridge Road East, Irondequoit, NY  14622</Address>
+				<Text>Text to FNDGO (36346) from your wireless device to get this theater's showtimes.</Text>
+				<Title tid ="1">
+					<Name>The Predator(2018)(R)• 1 hr 41 min</Name>
+					<Time>Closed caption • Accessibility devices available 1:30p|4:05p|7:00p|9:40p</Time>
+				</Title>	
+				<Title tid ="2">
+					<Name>White Boy Rick (R) • 1 hr 51 min</Name>
+					<Time>Closed caption • Accessibility devices available 1:35p|4:35p|7:25p|10:15p</Time>
+				</Title>	
+				<Title tid ="3">
+					<Name>Peppermint (2018) (R) • 1 hr 42 min</Name>
+					<Time>Closed caption • Accessibility devices available 12:55p|3:30p|6:35p|9:10p</Time>
+				</Title>
+		</Movie>
+		<Movie mid ="2">
+				<Theater>Cinemark Tinseltown USA and IMAX®</Theater>
+				<Address>2291 Buffalo Road, Rochester, NY  14624</Address>
+				<Text>Text to FNDGO (36346) from your wireless device to get this theater's showtimes.</Text>
+				<Title tid ="1">
+					<Name>Devadas (2018)[New]</Name>
+					<Time>Reserved seating • No passes • Digital • Telugu 9:00p</Time>
+				</Title>
+				<Title tid ="2">
+					<Name>A Simple Favor (R) • 1 hr 56 min</Name>
+					<Time>Reserved seating • Closed caption • Accessibility devices available 12:45p|3:40p|6:40p|9:30p</Time>
+				</Title>
+				<Title tid ="3">
+					<Name>Crazy Rich Asians (PG-13) • 2 hr 0 min</Name>
+					<Time>Reserved seating • Closed caption • Accessibility devices available 12:55p|3:55p|6:55p|9:50p</Time>
+					</Title>
+		</Movie>
+</Movies>

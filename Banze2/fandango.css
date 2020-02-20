@@ -1,0 +1,75 @@
+Movies {
+	margin:20px auto;
+	width:1000px;
+	/* background-color:#e6e6ff; */
+	background-color:#86af49;
+	font-family:Arial;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+Location{
+	border:1px solid black;
+	border-style: dotted;
+	margin:10px auto;
+	width:1100px;
+	font-weight:bold;
+	display:block;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: darkgrey;
+	margin-bottom:20px;
+	
+}
+
+
+Show{
+	margin:130px;
+	font-size:40px;
+	font-weight:bold;
+	/* color:blue;	 */
+	color:black;
+}
+
+Theater{
+	
+	width:83%;
+	display:block;
+	margin-left:130px;
+	margin-top: 10px;
+	margin-right: 120px;
+	float:left;
+	border-color: red;	
+	font-weight:bold;
+}
+
+Address,Text{
+	display:block;
+	margin-left:130px;
+	
+	
+}
+
+Text{
+	margin-bottom:5px;
+	
+}
+Name{/*
+	border:1px solid black; */
+	width:450px;
+	display:block;
+	margin-left:130px;
+	float:left;
+	background-color:#e3eaa7
+}
+
+Time{	/*
+	border:1px solid black;*/
+	width:520px;
+	margin-left:130px;
+	margin-right: 120px;
+	float:right;
+	background-color:#e3eaa7
+}
+
+Time, Name{
+	border:1px solid black;
+}

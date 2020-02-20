@@ -1,0 +1,12 @@
+<!ELEMENT Movies (Show,Location,Movie+)>
+<!ELEMENT Show (#PCDATA)>
+<!ELEMENT Location (#PCDATA)>
+<!ELEMENT Movie (Theater,Address,Text,Title+)>
+<!ATTLIST Movie mid CDATA #REQUIRED>
+<!ELEMENT Theater (#PCDATA)>
+<!ELEMENT Address (#PCDATA)>
+<!ELEMENT Text (#PCDATA)>
+<!ELEMENT Title (Name, Time)>
+<!ATTLIST Title tid CDATA #REQUIRED>
+<!ELEMENT Name (#PCDATA)>
+<!ELEMENT Time (#PCDATA)>
